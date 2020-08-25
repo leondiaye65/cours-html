@@ -68,33 +68,39 @@ Repellat deleniti fugit soluta quas accusantium dolores tenetur nobis beatae nih
     <Label for="mail">mail</Label>
     <input type="email" mail="mail"placeholder= "Ecrivez votre mail" id="mail"> 
     <br>
-    <input type="submit">
 
-    <form action="">
-        <label for="nom"> Nom </label>
-        <input type = "text" name=""
-        <br/>
-        <label for="">prenom</label>
-        <input type="text" name="prenom" placeholder="Ecrivez votre age" id="prenom"> 
-        <br/>
-        <label for="">Age :</label>
-        <input type="number" name="age"placeholder= "Ecrivez votre age" id="prenom" value ="12">
-        <br/>
-        <Label for="telephone">telephone</Label>
-        <input type="Number" telephone="telephone" placeholder="Ecrivez votre telephone" id="telephone">
-        <br/>
-        <label>adresse: </label>
-        <input type="text" adresse="adresse" placeholder="Ecrivez votre adresse" id="adresse">
-        <br>
-        <Label for="mail">mail</Label>
-        <input type="email" mail="mail"placeholder= "Ecrivez votre mail" id="mail"> 
-        <br>
-        <input type="submit">
+    
+    <div class="form-group">
+        <label for="">Selectionnez votre nationalité</label>
+     <select name="nationality">
+        <optgroup label="Asie">
+             <option value="Japon">japon</option>
+             <option value="Chine">Chine</option>
+             <option value="Thailande">Thailande</option>
+             <option value="Iran">Iran</option>
+         </optgroup>
+         <optgroup label="Afrique">
+            <option value="Cote d'Ivoire">Cote d'Ivoire</option>
+            <option value="Mali">Mali</option>
+            <option value="Gabon">Gabon</option>
+        </optgroup>
+         <optgroup label="Europe">
+            <option value="Italie">Italie</option>
+            <option value="France">France</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Allemagne">Allemagne</option>
+         </optgroup>
+     </select>
+       <br>
+
+    </div>
     
     <br>
   
     
 
 </form>
+
+
 </body>
 </html> 
