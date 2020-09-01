@@ -1,0 +1,37 @@
+img{
+    border: 50px solid black; 
+}
+body{
+    background-color:  White;
+}
+h1{
+    text-align: center; color:blue,
+    
+p{
+
+    color: blue
+}    
+
+}
+div{
+    font-style: italic; color: blue;
+}
+
+
+section ul,ol {
+
+    color: blue;
+
+}
+
+h1 {
+
+    color: blue;
+    font-weight: bold;
+}
+
+
+div{
+
+    color: blue;
+}

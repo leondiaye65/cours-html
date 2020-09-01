@@ -1,0 +1,85 @@
+header*
+{
+    margin: 0;
+    /* padding: 0. */
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+.logo
+{
+text-align:center
+}
+
+header{
+    background: rgb(9,9,121);
+}
+header *{
+    color :white;
+}
+header input[type=checkbox]{
+    display: none;/*faire diparaite l'input checkbox */
+}
+header label {
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+} 
+header .nav {
+    display: none;
+}
+header input[type=checkbox]:checked + .nav{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background:(rgb)
+} 
+.nav li:hover {
+    background-color: BLUE;
+.sous li:hover {
+    background-color: rgb(219?180,180,5);;
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(9,9,121);
+    padding: 20px;
+    color: white
+}
+
+ @media :-moz-full-screen and (min-width: 768) {
+     header label{
+         display: none;
+    }
+    
+    header. nav{
+        display: flex;;
+    }
+    .nav li{
+        width: 100%;
+        text-align: center;
+    }
+    .sous{
+        display: none;
+    }
+    .nav li:hover .sous{
+        display: flex;
+            flex-direction: column;
+            position: absolute;
+            background: rgba(116,55,5,0.455);
+            width: 33 .3%;
+
+        }
+
+
+    
+    
